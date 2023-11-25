@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">  
+        <div class="todo-app">
+            <h2>
+                <img
+                 src="asset/1530441-200-removebg-preview.png"
+                 alt="img todo"
+                 width="30px"
+                 height="30px"
+                 > TodoList
+            </h2>
+            <div class="row">
+                <input type="text"  id="input-box" placeholder="Tulis di sini">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <li class="checked"></li>
+            </ul>
+        </div>   
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
